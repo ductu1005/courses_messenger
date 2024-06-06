@@ -1,0 +1,80 @@
+version: '3'
+
+services:
+  cfgsvr0:
+    image: mongo
+    command: mongod --configsvr --replSet cfgrs --dbpath /data/cfg0 --port 27018 --bind_ip localhost
+    ports:
+      - "27018:27018"
+    volumes:
+      - ./cfg0:/data/cfg0
+
+  cfgsvr1:
+    image: mongo
+    command: mongod --configsvr --replSet cfgrs --dbpath /data/cfg1 --port 27019 --bind_ip localhost
+    ports:
+      - "27019:27019"
+    volumes:
+      - ./cfg1:/data/cfg1
+
+  cfgsvr2:
+    image: mongo
+    command: mongod --configsvr --replSet cfgrs --dbpath /data/cfg2 --port 27020 --bind_ip localhost
+    ports:
+      - "27020:27020"
+    volumes:
+      - ./cfg2:/data/cfg2
+
+  shard1_0:
+    image: mongo
+    command: mongod --shardsvr --replSet shard1rs --dbpath /data/a0 --port 27081 --bind_ip localhost
+    ports:
+      - "27081:27081"
+    volumes:
+      - ./a0:/data/a0
+
+  shard1_1:
+    image: mongo
+    command: mongod --shardsvr --replSet shard1rs --dbpath /data/a1 --port 27082 --bind_ip localhost
+    ports:
+      - "27082:27082"
+    volumes:
+      - ./a1:/data/a1
+
+  shard1_2:
+    image: mongo
+    command: mongod --shardsvr --replSet shard1rs --dbpath /data/a2 --port 27083 --bind_ip localhost
+    ports:
+      - "27083:27083"
+    volumes:
+      - ./a2:/data/a2
+
+  shard2_0:
+    image: mongo
+    command: mongod --shardsvr --replSet shard2rs --dbpath /data/b0 --port 27091 --bind_ip localhost
+    ports:
+      - "27091:27091"
+    volumes:
+      - ./b0:/data/b0
+
+  shard2_1:
+    image: mongo
+    command: mongod --shardsvr --replSet shard2rs --dbpath /data/b1 --port 27092 --bind_ip localhost
+    ports:
+      - "27092:27092"
+    volumes:
+      - ./b1:/data/b1
+
+  shard2_2:
+    image: mongo
+    command: mongod --shardsvr --replSet shard2rs --dbpath /data/b2 --port 27093 --bind_ip localhost
+    ports:
+      - "27093:27093"
+    volumes:
+      - ./b2:/data/b2
+
+  mongos:
+    image: mongo
+    command: mongos --configdb cfgrs/cfgsvr0:27018,cfgsvr1:27019,cfgsvr2:27020 --bind_ip 0.0.0.0 --port 27000
+    ports:
+      - "27000:27000"
