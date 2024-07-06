@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "moodle-6a071",
+  "private_key_id": "392a62defb360414ce8c0d4a6987ca323435e287",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCjaCWCyLqGlUyB\nCicejX22wR2klVXXeVQP25wz6a9feErtZhCllQBYGqAnybm0oPcu5cR8oec4mai6\ns7Ai/yh7F7gLS2jjgEHAxi8I0Mv80MQMEfLSTWX0IF/S/oHsoR1TuP2u0jri1qVM\nZhJFy1Q9S/NSJKWJ2ufS/rJtMMnyUK5zDMPmnBCkeYfOVlQjfrI8i+Vr2R7sJNPv\npOYB6ZYqX/3+EUDubNQLr+eRF3LnBjrmfIK9GezMsctDkCJN+++5PSuhPkXVC5Ig\nMFaF9CGLZGDmzFyo65zBmlF1CavMrhEdwtn7Ir1W1ha2fjDZcXBs7yvLjtAJvKEr\n5UTUdf9ZAgMBAAECggEACcIjsVR+7SAX3kHmtaih+Aq+1DAV3QUSG9NT1/bN4g/r\nO5OjjVvhViGa7F1b4XlWYZ7XldDOX98vSB0IeQKPXpB7TXNeq21in9pF/0sGz42B\nE65zt5LnMoXHazCHPkQd3fzXa3wDB75lRzN2RmQ+3t09BewJ1bp0qzFKIwKtoLKP\nwGo+TFPDcLD/X6DtrEheIjvA6FxreOHizAC6ywbHKL2o6GefqyWRLaxJ+6reL0Kq\nyu5bbNanhlbojcHiQDK1jEedqxGupyjj7s1Wt5hwI2rwS5DO5hskdOBnSSkUoKyf\nSDd+8ca+7guxOPOPGXwcAXPqcWiC/BENHJ4+CZzuYQKBgQDejFWYoZXjf/EOhTrJ\nxakaiojYIVBGgRcbCORq5eXJ8MSdrCTN3gdSj92c/hmIevEVyT08tmjN4xsNaVZO\nNVqHpdLJupdh+LmUwhoMsdA9KYzObSc/H4c1Glw3iCJD1eRXaYFAgXyLUrzqELnO\ncY/2ECmbdeegmDRzkyz+tF6gUQKBgQC7+AyyDzyD0IBLEJsewKq0hLTLpPFqMr6Y\nvjp34ze0gzSbVRPe7KrBEDDU8+g5uVNc9+NVDsf9mkRITJE/vXN0u8Vv5y9auMAi\ngg+2oHjgrfmJ+LbcOuFy/AHdMApEciK8SDJIbiQQcP+pxKvmtjqRTQ/geU4BVyLx\nnthhWHX0iQKBgQChu8MJJYVUzEpXjyNmN6vpifxhdfRtCKvODexSc7lHxR5eqBgn\nNNCFg+A+k7vin9ZNSu6iDL6lwgKLAJ6kP8oHAs/pox0ZKjVUkqtzxlXb3TJjYpg/\nG56bTQjvopOkUPGdRSOVyYTFi9+XC4i9K3LAFIboYAtxfqu/wpnUkSijwQKBgQC6\ntnON77qRyOuXJOChFIq8k9GvM6Gmds+Ck/sqGWa9BVOdNE5vsrEO45FOBxXXOPLI\nt2d2lx8rFzDajEv/f6WO//Hn7UHJoRkhbgZDx3Uq4UWtuoORkV9ew1rqpoycXq+I\nTUK9VcK3HjenIDgNDVhx+pVZycUlabPJRJr1X1ST2QKBgQDGS2h/e/p58MDXG9x8\n6suesKZYRk0wIlg+bryzZPDuPKTFKseirwtl2JnEZISAyyOEyuHkLt+jFKl8dBfj\nU1+MZrYwzgeuVQqRg8yeLjrQCTqvQGSW5qOcRpOWZrsniD1ajyzkaSha0rABClY9\nkIo7JC9IwfJwCrYNfpl+zm3vCg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "moodle-6a071@appspot.gserviceaccount.com",
+  "client_id": "104834120930507687599",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/moodle-6a071%40appspot.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

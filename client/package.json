@@ -1,0 +1,38 @@
+{
+  "name": "coursesmessage",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.18.2",
+    "@react-navigation/drawer": "^6.6.6",
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/native-stack": "^6.9.11",
+    "@react-navigation/stack": "^6.3.20",
+    "@reduxjs/toolkit": "^2.0.1",
+    "@stomp/stompjs": "^7.0.0",
+    "axios": "^1.6.5",
+    "expo": "~49.0.15",
+    "expo-status-bar": "~1.6.0",
+    "jwt-decode": "^4.0.0",
+    "net": "^1.0.2",
+    "react": "18.2.0",
+    "react-chat-engine": "^1.11.28",
+    "react-chat-engine-pretty": "^0.1.8",
+    "react-native": "0.72.6",
+    "react-native-gifted-chat": "^2.4.0",
+    "react-redux": "^9.1.0",
+    "redux": "^5.0.1",
+    "sockjs-client": "^1.6.1",
+    "stompjs": "^2.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
